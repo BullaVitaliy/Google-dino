@@ -1,0 +1,108 @@
+.game{
+    width: 600px;
+    height: 200px;
+    border-bottom: 1.5px solid #2B2B2B;
+    margin: auto;
+}
+
+#score{
+    display: inline;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: large;
+    position: relative;
+    bottom: 80px;
+    left: 580px;
+}
+
+#cloud{
+    width: 35px;
+    height: 25px;
+    background-image: url(./img/air-white-two.png);
+    background-size: 35px 25px;
+    position: relative;
+    top: 30px;
+    z-index: 1;
+    animation: cloudTwo 45s infinite linear;
+}
+@keyframes cloudTwo {
+    0% {
+        left: 580px;
+    }
+    100%{
+        left: -20px;
+    }
+}
+
+#cloud-second{
+    width: 45px;
+    height: 35px;
+    background-image: url(./img/air-white-two.png);
+    background-size: 45px 35px;
+    position: relative;
+    bottom: 25px;
+    z-index: 2;
+    animation: cloudTwoSecond 20s infinite linear;
+}
+@keyframes cloudTwoSecond {
+    0% {
+        left: 580px;
+    }
+    100%{
+        left: -20px;
+    }
+}
+
+#dino{
+    width: 50px;
+    height: 50px;
+    background-image: url(./img/dino.png);
+    background-size: 50px 50px;
+    position: relative;
+    top: 154px;
+    z-index: 10;
+}
+
+#cactus{
+    width: 20px;
+    height: 40px;
+    background-image: url(./img/cactus.png);
+    background-size: 20px 40px;
+    position: relative;
+    top: 112px;
+    left: 580px;
+    z-index: 9;
+    animation: cactusMov 1s infinite linear;
+}
+@keyframes cactusMov {
+    0% {
+        left: 580px;
+    }
+    100%{
+        left: -20px;
+    }
+}
+
+
+.jump{
+    animation: jump 0.6s linear;
+}
+
+@keyframes jump {
+    0% {
+        top: 150px;
+    }
+    30% {
+        top: 110px;
+    }
+    50% {
+        top: 80px;
+    }
+    80% {
+        top: 110px;
+    }
+    100%{
+        top: 150px;
+    }
+}
+
