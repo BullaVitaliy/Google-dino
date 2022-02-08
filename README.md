@@ -1,2 +1,2 @@
-# Google-dino.github.io
+# Google-dino
 Browser GAME
