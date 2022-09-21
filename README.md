@@ -1,4 +1,4 @@
-## Browser game Google-dino
+## Browser game Google-dino / desktop version
 
 The popular game when there is no internet connection
 [Play here](https://bullavitaliy.github.io/Google-dino/)
