@@ -4,7 +4,8 @@ const cactus = document.getElementById("cactus");
 document.addEventListener("keydown", function () {
   jump();
 });
-document.addEventListener("click", function () {
+
+document.body.addEventListener("click", function () {
   jump();
 });
 
