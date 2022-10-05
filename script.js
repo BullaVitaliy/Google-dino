@@ -4,6 +4,9 @@ const cactus = document.getElementById("cactus");
 document.addEventListener("keydown", function () {
   jump();
 });
+document.addEventListener("click", function () {
+  jump();
+});
 
 function jump() {
   if (dino.classList != "jump") {
